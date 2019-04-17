@@ -172,7 +172,6 @@ def player_numbers (team)
 end
 
 def player_stats(player_name)
-  stats = {}
   game_hash.each do |location, details|
     details[:players].each do |name, info|
       if player_name == name
