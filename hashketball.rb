@@ -184,4 +184,4 @@ end
 def big_shoe_rebounds
   shoe_size = 0
   rebounds = 0
-  
+  game_hash.each do |location, details|
